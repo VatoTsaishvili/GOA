@@ -1,3 +1,9 @@
+#6.
+
+#/ - ყოფს და % - გვიჩვენებს გაყოფის ნაშთშს
+
+#7.
+
 print(2 + 3)
 print(4 + 6)
 print(3 + 7)
@@ -22,8 +28,13 @@ print(2 ** 3)
 print(5 ** 2)
 print(10 ** 3)
 
+#8.
+
 celsius = 28
-fahrenheit = 82.4
+fahrenheit = (celsius * 9/5) + 32
+print(fahrenheit)
+
+#9.
 
 mom = 38
 dad = 41
@@ -36,5 +47,3 @@ Dad = 61
 Grandmother = 76
 Secondgrandmother = 91
 Uncle = 57
-
-print("გაყოფისას ტერმინალში გვიჩვენებს მის პასუხს ხოლო ნაშთიანი გაყოფისას გაყოფაში დარჩენილ ნაშთს")
