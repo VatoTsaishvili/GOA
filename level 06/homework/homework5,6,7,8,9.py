@@ -263,3 +263,16 @@ name = "luka"
 name = "gio"
 name = "andria"
 print(name)
+
+
+#8) თქვენი სიტყვებით ახსენით რას ნიშნავს case-sensitive და case-insensitive
+
+#case-sensitive - ნიშნავს ისეთ პროგრამირების ენას ,რომელიც ყურადღებას აქცევს ასოების სიდიდეს.
+#case-insensitive - ნიშნავს ისეთ პროგრამირების ენას ,რომელიც ყურადღებას არ აქცევს ასოების სიდიდეს.
+
+
+#9) ჩამოწერეთ 3 case-insensitive პროგრამირების ენა/ტექნოლოგია და 3 case-sensitive პროგრამირების ენა/ტექნოლოგია, ასევე გააკეთეთ ნახაზი paint-ში
+
+#case-insensitive - html, css, sql.
+#case-sensitive - pyton, c++, javascript.
+
