@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(236, 81, 34)
+}
+li{
+    color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(18, 15, 194);
+    font-size: 70px;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+}
+strong{
+    font-family: verdana;
+    font-size: 30px;
+    color: white;
+}
+img{
+    border-radius: 8px;
+}
+li{
+    font-size: 25px;
+}
