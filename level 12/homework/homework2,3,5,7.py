@@ -11,17 +11,17 @@ print(True and True)
 num1 = 10
 num2 = 15
 
-print(num1 > num2)
-print(num2 > num1)
-print(num1 < num2)
-print(num2 < num1)
-print(num1 >= num2)
-print(num2 >= num1)
-print(True or True)
-print(True and False)
-print(True or False)
-print(True and True)
-print(False or True)
+print(num1 > num2 or num2 > num1)
+print(num2 > num1 or num1 > num2)
+print(num1 < num2 or num2 < num1)
+print(num2 < num1 or num1 < num2)
+print(num1 >= num2 or num2 >= num1)
+print(num2 >= num1 and num1 >= num2)
+print(num1 == num2 and num2 == num1)
+print(num2 == num1 and num1 == num2)
+print(num1 != num2 and num2 != num1)
+print(num2 != num1 and num1 != num2)
+
 
 
 #5) თქვენი სიტყვებით ახსენით რა არის control flow და რამდენი ტექნიკა გააჩნია მას
