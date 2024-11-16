@@ -17,12 +17,11 @@ print(num1 < num2)
 print(num2 < num1)
 print(num1 >= num2)
 print(num2 >= num1)
-print(num1 <= num2)
-print(num2 <= num1)
-print(num1 == num2)
-print(num2 == num1)
-print(num1 != num2)
-print(num2 != num1)
+print(True or True)
+print(True and False)
+print(True or False)
+print(True and True)
+print(False or True)
 
 
 #5) თქვენი სიტყვებით ახსენით რა არის control flow და რამდენი ტექნიკა გააჩნია მას
@@ -32,5 +31,5 @@ print(num2 != num1)
 
 #7) თქვენი სიტყვებით ახსენით რა არის ალგორითმი და დაწერეთ რამდენი წარმოდგენის გზა აქვს მას - representation ways of algorithms
 
-#ალგორითმი მრავალი სახით შეგვიძლია გამოვსახოთ მაგალითად natural language, flow chart, pseudocode  და სხვა.
+#ალგორითმი არის ნაბიჯ ნაბიჯ ინსტრუქციები და ის მრავალი სახით შეგვიძლია გამოვსახოთ მაგალითად natural language, flow chart, pseudocode  და სხვა.
 
