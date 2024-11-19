@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(160, 37, 37);
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    font-size: 70px;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+}
+strong{
+    font-family: verdana;
+    font-size: 30px;
+    color: white;
+}
+img{
+    border-radius: 8px;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+li{
+    font-size: 25px;
+}
+button {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border-radius: 360px;
+}
