@@ -13,6 +13,33 @@ while num > 0:
     print("GOA IS THE BEST")
     num -= 1
 
+
+# 5) Write a program that uses a while loop to count from 1 to 10 and prints each number.
+
+num1 = 1
+while num1 < 10:
+    print(num1)
+    num1 += 1
+
+# 6) Use a while loop to print all even numbers between 1 and 20.
+
+num2 = 1
+while num2 < 20:
+    if num2 % 2 == 0:
+        print(num2)
+    num2 += 1
+
+
+# 7) Create a countdown from 10 to 1 using a while loop, and print "Blast off!" when the countdown finishes.
+
+num3 = 10
+while 0 < num3:
+    print(num3)
+    num3 -= 1
+
+print("Blast off")
+
+
 # 8) Prompt the user to enter a password. Keep asking until they enter the correct password.
 
 correct_password = "1234"
