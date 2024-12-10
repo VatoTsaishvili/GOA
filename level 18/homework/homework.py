@@ -1,40 +1,38 @@
-# 3) მომხმარებელს შემოატანინეთ 2 რიცხვი და დაბეჭდეთ მათ შორის უდიდესი.
+# # 3) მომხმარებელს შემოატანინეთ 2 რიცხვი და დაბეჭდეთ მათ შორის უდიდესი.
 
-num1 = int(input("enter number: "))
-num2 = int(input("enter number: "))
-if num1 > num2:
-    num1 += 0
-    print(num1)
-else:
-    num2 += 0
-    print(num2)
+# num1 = int(input("enter number: "))
+# num2 = int(input("enter number: "))
+# if num1 > num2:
+#     print(num1)
+# else:
+#     print(num2)
 
 
-# 4) Write a program that checks if a given number is even or odd.
+# # 4) Write a program that checks if a given number is even or odd.
 
-num3 = int(input("Enter number: "))
-if num3 %2 == 0:
-    print(str(num1), "is even")
-else:
-    print(str(num1), "is odd")
+# num3 = int(input("Enter number: "))
+# if num3 %2 == 0:
+#     print(num1, "is even")
+# else:
+#     print(num1, "is odd")
 
 
-# 5) Write a program to check if a number is positive or negative.
+# # 5) Write a program to check if a number is positive or negative.
 
-num4 = int(input("Enter number: "))
-if num4 > 0:
-    print(str(num4), "is positive")
-else:
-    print(str(num4), "is negative")
+# num4 = int(input("Enter number: "))
+# if num4 > 0:
+#     print(num4, "is positive")
+# else:
+#     print(num4, "is negative")
 
 
 # 6) Write a program to check if a number is divisible by 5 - პროგრამა რომელიც ამოწმებს რიცხვი 5-ზე უნაშთოდ იყოფა თუ არა
 
 num5 = int(input("Enter number: "))
-if num5 % 5:
-    print(str(num5), "isn't diviseble by 5")
+if num5 % 5 == 0:
+    print(num5, "is divisible by 5")
 else:
-    print(str(num5), "is diviseble by 5")
+    print(num5, "isn't divisible by 5")
 
 
 # 7) Ask the user to enter a number multiple times and check if it's even or odd. Stop after 5 numbers.
