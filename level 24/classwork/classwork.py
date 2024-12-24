@@ -1,2 +1,1 @@
-from turtle import *
-
+# no classwork
