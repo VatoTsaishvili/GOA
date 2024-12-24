@@ -11,6 +11,8 @@ n8 = list[7]
 n9 = list[8]
 n10 = list[9]
 
+
+
 num1 =int(input("enter number: "))
 num2 =int(input("enter number: "))
 num3 =int(input("enter number: "))
