@@ -52,20 +52,10 @@
 def manual_len(list):
     count = 0  
     for i in list:
-        count += 1 
-        print(i)
+        i = count
+        print(count)
 
 my_list = [1, 2, 3, 4, 5]
 range = manual_len(my_list) 
-print("range", range) 
 
-# def manual_len(input_list):
-    # count = 0  # Initialize a variable to keep track of the count
-    # for item in input_list:  # Iterate through each item in the list
-    #     count += 1  # Increment the count for each item
-    # return count  # Return the final count
-
-# Example usage
-# my_list = [1, 2, 3, 4, 5]  # Define a list
-# length_of_list = manual_len(my_list)  # Call the function with the list
-# print("The length of the list is:", length_of_list)
+print("range", range)
