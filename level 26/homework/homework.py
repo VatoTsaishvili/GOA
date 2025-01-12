@@ -39,4 +39,11 @@ result = maximum([2, 10, 15, 7, 4])
 
 # 6) Factorial: Implement a function to calculate the factorial of a given number.
 
+def factorial(n):
+    product = 1
+    for i in range(1, n + 1):
+        product *= i
+        
+    print(product)
 
+factorial(3)

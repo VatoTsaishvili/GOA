@@ -1,0 +1,9 @@
+.parent {
+    color: blue;
+    padding: 20px;
+    border: 1px solid double;
+}
+
+.override {
+    color: red;
+}
