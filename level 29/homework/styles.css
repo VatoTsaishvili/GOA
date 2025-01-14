@@ -1,0 +1,58 @@
+#p-1{
+    color: blue;
+}
+
+#p-2{
+    color: red;
+}
+
+#p-3{
+    color: green;
+}
+
+#p-4{
+    color: gray;
+}
+
+#p-5{
+    color: orange;
+}
+
+/*```4) html-ის დოკუმენტში დაამატეთ 5 ღილაკი და ყველა მათგანის ფონის ფერი გაწერეთ შავი, გამოიყენეთ class```*/
+
+.button-1{
+    color: black;
+}
+
+#b-1{
+    color: blue;
+}
+
+.but-1{
+    color: green;
+}
+
+#div-1{
+    color: yellow;
+    background-color: blue;
+}
+
+#div-2{
+    color: green;
+    background-color: blue;
+}
+
+#div-3{
+    color: yellow;
+    background-color: green
+}
+
+#div-4{
+    color: red;
+    background-color: purple;
+}
+
+#div-5{
+    color: purple;
+    background-color: orange;
+}
