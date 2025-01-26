@@ -1,0 +1,52 @@
+.p-1{
+    color: blue;
+    background-color: yellow;
+}
+
+p{
+    color: yellow;
+    background-color: blue;
+}
+
+/* /    <!-- 5) ვებსაიტზე დაამატეთ დივ ბლოკი, რომლის სიგანე და სიმაღლე იქნება ტოლი - 1000 პიქსელი და მისი ფონის ფერი იქნება მწვანე. ამ დივ ბლოკში ჩააშენეთ შვილობილი დივ ბლოკი, რომლის სიგანე იქნება მშობელი დივ ბლოკის სიგანის 20% და სიმაღლის 15%. ამ შვილობილი დივ ბლოკის ფონის ფერი უნდა იყოს შავი. */
+
+#parent-div{
+    height: 1000px;
+    background-color: green;
+}
+#child-div{
+    width: 20%;
+    height: 15%;
+    background-color: black;
+}
+
+#div-1{
+    background-color: violet;
+}
+#div-2{
+    background-color: purple;
+}
+#div-3{
+    background-color: palegreen;
+}
+#div-4{
+    background-color: beige;
+}
+#div-5{
+    background-color: gainsboro;
+}
+#div-6{
+    background-color: hotpink;
+}
+#div-7{
+    background-color: rebeccapurple;
+}
+#div-8{
+    background-color: red;
+}
+#div-9{
+    background-color:blue;
+}
+#div-10{
+    background-color: lightblue;
+}

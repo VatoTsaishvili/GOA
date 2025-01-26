@@ -1,0 +1,69 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Smooch+Sans:wght@100..900&display=swap'); */
+
+/* body{
+  font-family: "Smooch Sans", serif;
+} */
+
+@font-face {
+    font-display: swap;
+    font-size: medium;
+    font-style: normal;
+    font-family: open ;
+    src: url("Open_Sans\,Playwrite_IN\,Smooch_Sans.zip") format('opentype');
+}
+
+body{
+    font-family: open;
+}
+
+#p1{
+    text-align: right;
+    text-decoration: underline wavy green;
+}
+
+#p2{
+    text-align: center;
+    text-decoration: line-through ;
+}
+
+#p3{
+    text-align: left;
+    text-decoration: overline double red;
+}
+
+#p4{
+    text-align: center;
+    text-decoration: underline ;
+}
+
+#p5{
+    text-align: right;
+    text-decoration: line-through dotted green;
+}
+
+#p6{
+    text-align: left;
+    text-decoration: line-through ;
+}
+
+#p7{
+    text-align: left;
+    text-decoration: overline;
+}
+
+#p8{
+    text-align: right;
+    color: green;
+    text-decoration: overline green;
+}
+
+#p9{
+    text-align: center;
+    color: gray;
+    text-decoration: overline gray
+}
+#p10{
+    text-align: right;
+    text-decoration: underline dotted green;
+}
