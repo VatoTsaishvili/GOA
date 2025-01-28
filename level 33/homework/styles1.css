@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+body{
+    font-family: roboto;
+}
+
+
+/* ```15) Multiple Font Imports: Import two different fonts using @import and assign one to headings and the other to body text.``` */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+
+#p1-f{
+    font-family: smooch sans;
+}
+
+p{
+    font-family: "Playwrite IN", serif;
+  }
+
+
+  /* 16) Font Pairing Showcase: Use @import to load two complementary fonts (e.g., a serif for headings and a sans-serif for body text) and create a styled typography showcase. */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: serif;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+/* 17) Download and Apply a Custom Font: Use @font-face to download a font file (e.g., .ttf or .woff2) and apply it to all headings. */
+
+
+@font-face {
+    font-display: swap;
+    font-size: medium;
+    font-style: normal;
+    font-family: open ;
+    src: url("Open_Sans\,Playwrite_IN\,Smooch_Sans.zip") format('opentype');
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "open sans";
+}
+
+/* 18) Styling Buttons with a Downloaded Font: Download and use a custom font (e.g., decorative or bold) specifically for button text. */
+
+@font-face {
+    font-display: swap;
+    font-size: medium;
+    font-style: normal;
+    font-family: open ;
+    src: url("Open_Sans\,Playwrite_IN\,Smooch_Sans.zip") format('opentype');
+}
+
+button{
+    font-family: "open sans";
+}

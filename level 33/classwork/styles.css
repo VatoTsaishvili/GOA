@@ -1,9 +1,9 @@
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Smooch+Sans:wght@100..900&display=swap'); */
 
-/* body{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Smooch+Sans:wght@100..900&display=swap');
+
+body{
   font-family: "Smooch Sans", serif;
-} */
+}
 
 @font-face {
     font-display: swap;
