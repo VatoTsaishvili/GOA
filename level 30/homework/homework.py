@@ -1,8 +1,8 @@
 # # ```2) Convert a given sentence to uppercase and print the result.```
 
-# word = "Banana"
+word = "Banana"
 
-# print(word.upper())
+print(word.upper())
 
 # 3) Take a user's name input and display it in uppercase letters.
 

@@ -8,14 +8,14 @@
 
 # ფუნქციის გამოძახებისას, მას არგუმენტებად უნდა გადაეცეს ეს ცვლადები
 
-# name = input("enter your name: ")
-# surname = input("enter your surname: ")
-# age = input("enter your age: ")
+name = input("enter your name: ")
+surname = input("enter your surname: ")
+age = input("enter your age: ")
 
-# def generate_big_sentence(name, surname, age):
-#     print(f"Hello, my name is {name}, my surname is {surname}, i am {age} years old.")
+def generate_big_sentence(name, surname, age):
+    print(f"Hello, my name is {name}, my surname is {surname}, i am {age} years old.")
 
-# generate_big_sentence(name, surname, age)
+generate_big_sentence(name, surname, age)
 
 
 # საკლასო დავალება:
@@ -26,13 +26,13 @@
 
 # ფუნქციის გამოძახებამდე მომხარებელს შემოატანინეთ მთავარი და დასაყოფი სთრინგები, შეინახეთ ცვლადებში. შემდეგ გამოიძახეთ ფუნქცია და ეს ცვლადები გადაეცით არგუმენტებად
 
-# def my_split(main_string, string_to_split):
-#     print(main_string.split(string_to_split))
+def my_split(main_string, string_to_split):
+    print(main_string.split(string_to_split))
 
-# main = input("enter main string")
-# second = input("enter second string")
+main = input("enter main string")
+second = input("enter second string")
 
-# my_split(main, second)
+my_split(main, second)
 
 # საკლასო დავალება:
 
