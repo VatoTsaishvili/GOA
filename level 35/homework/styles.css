@@ -1,0 +1,13 @@
+
+/* 1) Set a custom link color using the color property.*/
+
+#h1:visited{
+    color: red;
+}
+
+
+/* 2) Remove the default underline with text-decoration: none;. */
+
+#h1:visited{
+    text-decoration: underline none;
+}

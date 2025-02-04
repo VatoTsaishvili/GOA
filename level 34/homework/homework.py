@@ -37,8 +37,12 @@ greeting()
 
 # 6) Boss level: Nested Functions: Define a function that contains another function inside it and calls the inner function.
 
-                                    # ??????????
+def fun1():
+    def fun2(a, b):
+        print(a + b)
 
+    fun2(2, 3)
+fun1()
 
 
 # 7) Write a function that takes a list of numbers and checks whether each number is even or odd using a loop and conditional statements. Print "Even" for even numbers and "Odd" for odd numbers.
@@ -73,6 +77,25 @@ print("The maximum number is:", max_value)
 
 # 9) Define a function that takes a list of integers and returns a new list containing only the positive numbers. Use a loop and a conditional statement.
 
-# def filter(list):
-#     number = 0 < 0
-#     for num in list:
+def fillter_positives(lst):
+    list1 = []
+    for i in lst:
+        if i > 0:
+            list1.append(i)
+
+    return list1
+
+print(fillter_positives([1, 2, -3, 4, -5]))
+
+
+# 10) Write a function that iterates through a range of numbers (e.g., 1 to 100) and sums up all the numbers divisible by 3. Return the total sum.
+
+def sum_of_numbers(num1, num2):
+    restult = 0
+    for i in range(num1, num2):
+        if i % 3 == 0:
+            restult += i
+
+    return restult
+
+print(sum_of_numbers(1, 7))
