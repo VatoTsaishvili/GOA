@@ -8,6 +8,71 @@
 
 /* 2) Remove the default underline with text-decoration: none;. */
 
-#h1:visited{
+#h2:visited{
     text-decoration: underline none;
+}
+
+/* Add an underline on hover using :hover and text-decoration: underline;. */
+
+#h3:hover   {
+    text-decoration: underline dashed black;
+}
+
+/* Change the link color on hover with :hover and color. */
+
+#h4:hover{
+    color: darkblue;
+}
+
+/* Style visited links using :visited and a different color. */
+
+#h5:visited{
+    color: palegreen;
+}
+
+/* add a background color on hover with :hover and background-color. */
+
+#h6:hover{
+    background-color: gold;
+}
+
+/* Make links bold using font-weight: bold;. */
+
+#h7:hover,:visited{
+    font-weight: bold;
+}
+
+/* Change the font style with font-style: italic;. */
+
+#h8{
+    font-style: italic;
+}
+
+/* Convert text to uppercase using text-transform: uppercase */
+
+#h9{
+    text-transform: uppercase;
+}
+
+
+
+/* <!--  
+
+Set border styles using border on table, rows, and cells.
+
+Apply border-collapse: collapse; to merge table borders.
+
+Use background-color to add color to headers or rows. --> */
+
+table {
+    border-collapse: collapse;
+    width: 5px;
+}
+
+th, td {
+    border: 2px solid black;
+}
+
+#tr1  {
+    background-color: green;
 }
