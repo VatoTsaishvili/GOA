@@ -15,8 +15,9 @@
     background-color: #45a049;
 }
 
-#h4 {
-    border-color:   navy;
+#h4:focus{
+    background-color: navy;
+    border: 1px solid blueviolet;
 }
 
 
