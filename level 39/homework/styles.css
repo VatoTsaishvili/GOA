@@ -1,0 +1,85 @@
+/* 2) Style the Input Fields – Add a border, padding, and background color to input fields to make them more visually appealing. */
+
+#h2 {
+    border: black solid 1px;
+    padding: 20px;
+    background-color: green;
+}
+
+/* 3) Customize the Submit Button – Style the submit button with a custom color, rounded corners, and a hover effect. */
+
+#h3 {
+    color: #ffddaa;
+    border-radius: 5px;
+    
+}
+
+#h3:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+
+/* Add Focus Effects – Change the border color and background of input fields when they are focused to improve user experience. */
+
+#h4 {
+    border-color:   navy;
+}
+
+
+#h5 {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+#h5::before {
+    content: 'error';
+    margin-right: 5px;
+  }
+
+#h6 {
+    padding: 20px 30px 15px 10px; 
+}
+
+
+#h8 {
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+#h9 {
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#h10 {
+  margin: 20px 0;
+}
+
+
+#h11 {
+    padding: 10px 20px;
+    border: 2px solid #4CAF50;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+#h12 {
+    border: 2px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+#h13{
+    margin-bottom: 10px;
+}
+
+#h14 {
+    margin-top: -10px;
+}
