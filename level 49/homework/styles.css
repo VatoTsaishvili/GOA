@@ -1,0 +1,125 @@
+/* 2. **Hover Animation:** Create a button that changes its background color when hovered over. */
+
+.hover-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: #2ecc71;
+}
+  
+
+/* 3. **Transition Effect:** Design a link that smoothly changes color when hovered over. */
+  
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+  
+a:hover {
+    color: #e74c3c;
+}
+  
+  
+/* 4. **Scaling Effect:** Create an image that slightly scales up when hovered over.   */
+
+img {
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+/* 5. **Text Hover Effect:** Make a paragraph where the text color changes gradually on hover.   */
+  
+p {
+    color: #34495e;
+    transition: color 0.3s ease;
+}
+  
+p:hover {
+    color: #e74c3c;
+}
+  
+.border-box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3498db;
+    transition: border-width 0.3s ease;
+}
+  
+.border-box:hover {
+    border-width: 8px;
+}
+  
+  
+.press-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+  
+.press-button:active {
+    transform: scale(0.95);
+}
+  
+  
+.opacity-div {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    transition: opacity 0.3s ease;
+}
+  
+.opacity-div:hover {
+    opacity: 0.5;
+}
+  
+  
+.padding-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    padding: 20px;
+    transition: padding 0.3s ease;
+}
+  
+.padding-box:hover {
+    padding: 40px;
+}
+ 
+
+/* 10. **Rotation Effect:** Make an icon that rotates slightly when hovered over.  */
+  
+.rotate-icon:hover {
+    transform: rotate(15deg);
+}
+  
+
+/* 11. **Shadow Animation:** Create a card with a box shadow that grows and darkens smoothly on hover. */
+
+.shadow-card {
+    width: 300px;
+    height: 300px;
+    background-color: #3498db;
+    transition: box-shadow 0.3s ease;
+}
+
+.shadow-card:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+

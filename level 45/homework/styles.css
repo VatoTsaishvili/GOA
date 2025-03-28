@@ -1,0 +1,62 @@
+
+
+/* 3-12)
+
+Create a flex container with three items arranged in a row.
+
+Align all flex items to the center of the container.
+
+Distribute items evenly across the container with space between them.
+
+Make one item grow twice as much as the others.
+
+Reverse the order of the flex items.
+
+Align one specific item to the bottom while keeping others at the top.
+
+Wrap items to the next line when the container is too small.
+
+Center all items both horizontally and vertically.
+
+Set all items to have equal width regardless of content size.
+
+Change the direction of items to a vertical column. */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #008000;
+}
+.container {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+}
+.box {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    flex: 1;
+    width: 100px;
+}
+.box:nth-child(2) {
+    flex-grow: 2;
+}
+.box:last-child {
+    align-self: flex-end; 
+}

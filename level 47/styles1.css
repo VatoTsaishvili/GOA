@@ -1,0 +1,13 @@
+/* <!-- საკლასო დავალება: */
+
+/* html-ის დოკუმენტში აიღეთ ერთი დივ ბლოკი. მისი სიმაღლე იყოს 500px, ხოლო სიგანე 1000px. მისი კუთხეები მოამრგვალეთ. დაამატეთ საზღვარი ამ დივ ბლოკს. მას გაუწერეთ background image, რომელიც მთლიანად უნდა ფარავდეს div block-ს. --> */
+
+#div-1 {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+}

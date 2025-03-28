@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    padding: 5px;
+    align-items: center;
+    width: 300px;
+    border: 2px solid black;
+}
+.section {
+    margin: 7px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.header { 
+    background: #03a9f4; 
+}
+.hero {
+    background: #d22b1f; 
+}
+.content {
+    background: #129a22; 
+    }
+.sidebar {
+    background: #673ab7; 
+    }
+.footer {
+    background: #616161;
+    } 
