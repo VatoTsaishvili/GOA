@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- საკლასო დავალება:
+
+    შექმენით js-ის ფუნქცია, რომელიც წამოიღებს ნებისმიერ ელემენტს id-ის გამოყენებით და ამ ელემენტს შეუცვლის ტექსტის განლაგებას.
+
+    როდესაც დავაკლიკებთ ამ ელემენტს, მაშინ უნდა გაეშვას ჩვენს მიერ შექმნილი ფუნქცია -->
+
+
+    <p id="p-main" onclick="changeLine()">Lorem ipsum dolor sit amet.</p>
+
+    <script>
+        function changeLine(){
+            document.getElementById("p-main").style.textAlign = "center";
+        }
+    </script>
+</body>
+</html>

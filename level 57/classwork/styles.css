@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4b3c69;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.child {
+    flex: 1;
+    margin: 10px;
+    height: 100px;
+}
+
+.child1 {
+    background-color: #009688;
+}
+
+.child2 {
+    background-color: #03A9F4;
+}
+
+.child3 {
+    background-color: #FF5722;
+}
+
+@media (max-width: 800px) {
+    .parent {
+        flex-direction: column;
+    }
+}

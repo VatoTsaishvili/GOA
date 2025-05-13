@@ -1,7 +1,7 @@
 #5.
-name="vato"
-surname="tsaishvili"
-age=15
+name = "vato"
+surname = "tsaishvili"
+age = 15
 country = "Georgia"
 city = "zugdidi"
  

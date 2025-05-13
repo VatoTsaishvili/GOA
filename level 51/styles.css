@@ -1,0 +1,41 @@
+/* საკლასო დავალება:
+
+შექმენით ანიმაცია სახელად bg-and-deg-change keyframes-ის გამოყენებით:
+
+0% - ფონის ფერი იყოს შავი
+50% - ფონის ფერი იყოს მწვანე და დივ ბლოკი შემოტრიალდეს 180 გრადუსით
+100% - ფონის ფერი იყოს ლურჯი და დივ ბლოკი შემოტრიალდეს 180 გრადუსით.
+
+ეს ანიმაცია უნდა გაეშვას მაშინ, როდესაც დივ ბლოკზე გვექნება hover მოვლენა და ანიმაციის ხანგრძლივობა უნდა იყოს 3 წამი. */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div {
+    width: 100vh;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.div1:hover {
+    animation-name: bg-and-deg-change;
+    animation-duration: 3s;
+}
+
+@keyframes bg-and-deg-change {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: green;
+        transform: rotate(180deg);
+    }
+    100% {
+        background-color: blue;
+        transform: rotate(360deg);
+    }
+}

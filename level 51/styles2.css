@@ -1,0 +1,15 @@
+/* საკლასო დავალება:
+
+გამოიყენეთ transition და როდესაც div ბლოკზე მოხდება hover მოვლენა, შეცვალეთ დივ ბლოკის ფონის ფერი. ეს transition უნდა მიმდინარეობდეს 0.3 წამი */
+
+
+div1 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: 0.3;
+}
+
+.div1:hover {
+    background-color: aqua;
+}
