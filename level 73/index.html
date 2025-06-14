@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>საკლასო დავალება</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+
+  <script>
+
+    function addNewElement() {
+      const divBlock = document.getElementById("myDiv");
+      const button = document.createElement("button");
+
+      const buttonText = document.createTextNode("ჩემი ღილაკი");
+      button.appendChild(buttonText);
+
+      divBlock.appendChild(button);
+    }
+
+    addNewElement();
+  </script>
+
+    function modifyDivContent() {
+      const container = document.getElementById('container');
+
+      // ღილაკის წაშლა
+      const button = document.getElementById('myButton');
+      if (button) {
+        container.removeChild(button);
+      }
+
+      // პარაგრაფის ჩანაცვლება i თეგით
+      const paragraph = document.getElementById('myParagraph');
+      if (paragraph) {
+        const iTag = document.createElement('i');
+        const textNode = document.createTextNode('ეს არის i თეგი.');
+        iTag.appendChild(textNode);
+
+        container.replaceChild(iTag, paragraph);
+      }
+    }
+
+    // ფუნქციის გამოძახება გვერდის ჩატვირთვისას
+    window.onload = modifyDivContent;
+
